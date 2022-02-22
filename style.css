@@ -1,0 +1,569 @@
+body {
+    margin: 0;
+    padding:0;
+}
+
+/* Header start */
+.wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+ul, li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+.wrapper-head {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;;
+}
+
+.logo-area {
+    float: left;
+    overflow: hidden;
+    width: 12%;
+}
+.logo-area img {
+    padding: 10px 0px;
+}
+.menu {
+    float: left;
+    width: 73%;
+}
+ul li a {
+    text-decoration: none;
+    padding: 11px;
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul li a:hover {
+    border-bottom: 2px solid yellow;
+    transition: all 0.2s ease;
+}
+.social-icon {
+    float: left;
+    width: 10%
+}
+.all-icon {
+    text-align: right;
+    padding: 10px 5px;
+}
+.all-icon i {
+    padding: 5px;
+    width: 10%;
+}
+.all-icon i:hover {
+   transform: scale(1.5);
+   color:blue;
+
+}
+ /* Body top section */
+
+ .main-content {
+     width: 100%;
+     background-color: #f5df4e !important;
+     text-align: center;
+     overflow: hidden;
+ }
+ .main-content-section {
+     width: 90%;
+     overflow: hidden;
+    margin: auto;
+ }
+ .main-left {
+     width: 50%;
+     float: left;
+     overflow: hidden;
+     margin-top: 8%;
+ }
+ .main-left h4 {
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    padding: 0px 10px;
+    margin:0;
+}
+.main-left h1 {
+    color: black;
+    font-size: 73px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+}
+.main-left h6 {
+    color: black;
+    font-size: 27px;
+    padding: 10px;
+    text-align: left;
+}
+.view-work {
+    text-decoration: none;
+    color: #fffefe;
+    font-size: 20px;
+    padding: 2px 13px;
+    background-color: black;
+    text-align: center;
+    margin: 10px 0px 0px 10px;
+}
+.main-button {
+    text-align: left;
+}
+.contat-me {
+
+    color: #000000;
+    font-size: 20px;
+    padding: 2px 13px;
+    text-align: center;
+    margin: 10px 0px 0px 10px;
+}
+
+.my-image {
+    width: 50%;
+    float: left;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.my-image img {
+    border-radius: 250px;
+    border: 16px solid #fff;
+
+
+}
+
+/* flex css */
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flex-content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    /* margin: 20px; */
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flex-about-me {
+    width: 50%;
+}
+.flex-experience {
+    width: 50%;
+    align-items: stretch;
+}
+.year {
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    background: yellow;
+    height: 100px;
+    border: 1px solid yellow;
+    border-radius: 108px;
+    width: 104px;
+    margin-top: 10px;
+}
+.year p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.bg-yellow {
+    
+
+}
+.flex-details {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flex-name {
+    padding: 10px 10px;
+    width: 22%;
+    margin-left: 10px;
+    text-align: left;
+}
+.flex-name h6{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.flex-name h5{
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.flex-email {
+    padding: 10px 10px;
+    width: 22%;
+    margin-left: 10px;
+    text-align: left;
+}
+.flex-email h6{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.flex-email h5{
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 0px;
+}
+.flex-birthdate {
+    padding: 10px 10px;
+    width: 22%;
+    margin-left: 10px;
+    text-align: left;
+}
+.flex-birthdate h6{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.flex-birthdate h5{
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.flex-from {
+    padding: 10px 10px;
+    width: 22%;
+    margin-left: 10px;
+    text-align: left;
+}
+.flex-from h6{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.flex-from h5{
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.all-content {
+    width: 90%;
+    text-align:center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.all-content h6 {
+    width: 100%;
+}
+.all-content h2 {
+    width: 100%;
+}
+
+.all-content button {
+    padding: 10px;
+    border: 2px solid black;
+    margin: 0 auto;
+    transition: background-color 0.5s ease;
+}
+.all-content button:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.fex-container-do {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+.flex-boxes {
+    width: 30%;
+    margin-right: 1%;
+    padding: 10px;
+}
+.flex-boxes p {
+    text-align: justify;
+    padding: 10px;
+}
+.flex-boxes i {
+    color:#f5df4e;
+    font-size: 53px;
+}
+
+
+/* <!-- resume and summery  --> */
+.edu-flex-boxes {
+    width: 45%;
+    text-align: left;
+}
+.exp-flex-boxes {
+    width: 45%;
+    text-align: left;
+    margin-left: 5%;
+}
+.edu-left {
+    border-left: 2px solid yellow;
+    padding: 0px 0px 0px 15px;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    
+}
+.exp-eight {
+    border-left: 2px solid yellow;
+    padding: 0px 0px 0px 15px;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    
+}
+.edu-left hr {
+    width: 100%;
+    border: 1px solid silver;
+    margin: 14px 0px;
+}
+.m-eng  {
+    margin-bottom: 27px;
+}
+.m-eng h4 {
+    font-size: 23px;
+    font-weight:bold;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+}
+.m-eng h5 {
+    font-size: 16px;
+    margin: 5px 0px;
+}
+.m-eng p {
+    font-size: 18px;
+}
+.skill-flex-left {
+    text-align: left;
+    width: 45%;
+    margin-right: 4%;
+    margin-bottom10px;
+}
+.skill-flex-left progress {
+    width:100%;
+    margin: 5px 0px 15px 0px;
+    
+}
+.progess-bar {
+    background-color: yellow;
+}
+.skill-flex-left span {
+    float: right;
+}
+.h2-left {
+    text-align: left;
+}
+.skill-flex-right {
+    text-align: left;
+    width: 45%;
+    margin-right: 4%;
+    margin-bottom: 10px;
+}
+.skill-flex-right progress {
+    width:100%;
+    margin: 5px 0px 15px 0px;
+    
+}
+.skill-flex-right span {
+    float: right;
+}
+.all-content ul, li {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Picture portfolio */
+
+.portfolio-picture {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items:stretch;
+    margin: 10px 0px;
+
+}
+
+.portfolio-pic {
+    width:30%;
+    margin-top: 10px;
+    margin-right: 3%;
+
+}
+.portfolio-pic img {
+    width:100%;
+
+}
+.back-pic {
+    background-image: url(img/intro-bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center -15px;
+   
+
+}
+.work {
+    width: 100%;
+    padding: 20px;
+    margin: 119px 10px;
+}
+.work h2 {
+    font-size: 46px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.work button {
+    background-color: yellow;
+    padding: 15px 38px;
+    font-size: 18px;
+}
+
+/* FaQ */
+
+.all-faq {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+}
+.query {
+    flex-basis: auto;
+    width: 45%;
+    margin-right: 3%;
+}
+.query-left {
+    width: 45%;
+}
+.query-left img {
+    width: 92%;
+}
+.query details {
+    padding: 10px;
+    margin: 2px;
+}
+
+.query summary {
+    font-size: 23px;
+    color: #565454;
+
+}
+.query p {
+    font-size: 20px;
+}
+.query hr {
+    padding: 2px;
+}
+
+/* get in touch */
+
+.in-touch-all {
+    background-color: yellow;
+}
+.in-touch {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.in-touch-left {
+    width: 40%;
+}
+
+.in-touch-left h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+.in-touch-left h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.in-touch-left p {
+    font-size: 17px;
+}
+.in-touch-left address {
+    font-size: 17px;
+}
+.live-in a {
+    text-decoration: none;
+    color: #000;
+}
+.in-touch-left .social-icon {
+    width: 100%;
+}
+.in-touch-left .social-icon .all-icon {
+    text-align: left;
+
+}
+.in-touch-left .social-icon .all-icon i {
+    width: 5%;
+
+}
+
+.in-touch-right {
+    width: 55%;
+    margin-left: 3%;
+}
+.in-touch-right label {
+    font-size: 20px;
+}
+.in-touch-right input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    width: 100%;
+    font-size: 17px;
+}
+.in-touch-right textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    min-height: 165px;
+    font-size: 17px;
+}
+.in-touch-right button {
+    padding: 10px 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+}
+/* footer */
+
+footer {
+    background-color: black;
+
+}
+.allfooter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 25px;
+}
+.footer-left {
+    width: 50%;
+    text-align: left;
+}
+.footer-right {
+    width: 50%;
+    text-align: right;
+}
